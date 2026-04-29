@@ -708,7 +708,7 @@ function AnalyseSpecSection() {
 function ConceptionSection() {
   const [activeDiagram, setActiveDiagram] = useState<string | null>(null);
 
-  const diagramContent: Record<string, { title: string; desc: string; steps: string[] }> = {
+  const diagramContent: Record<string, { title: string; desc: string; steps: string[]; img?: string }> = {
     'sequence-homepage': {
       title: 'Diagramme de Séquence — Page d\'Accueil',
       desc: 'Flux de recommandation des top ventes avec personnalisation selon le profil utilisateur',
