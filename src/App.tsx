@@ -736,7 +736,7 @@ function ConceptionSection() {
         'SAP enrichit les codes produits avec images, prix, disponibilité',
         'Frontend affiche "Produits similaires" + "Souvent achetés ensemble"',
       ],
-      img:'../public/sequence_product.png',
+      img:'../sequence_product.png',
     },
     'sequence-cart': {
       title: 'Diagramme de Séquence — Panier',
@@ -749,7 +749,7 @@ function ConceptionSection() {
         'MetaRank re-rank la liste agrégée si utilisateur connecté',
         'Affichage : "Complétez votre commande" avec produits complémentaires',
       ],
-      img:'../public/sequence_cart.png',
+      img:'../sequence_cart.png',
     },
     'sequence-tracking': {
       title: 'Diagramme de Séquence — Tracking Closed-Loop',
@@ -763,7 +763,7 @@ function ConceptionSection() {
         'Au prochain appel /rank, MetaRank tient compte de ce click',
         'Système d\'apprentissage en boucle fermée (closed-loop)',
       ],
-      img:'../public/sequence_tracking.png',
+      img:'../sequence_tracking.png',
     },
   };
 
