@@ -1677,8 +1677,10 @@ function DocumentationSection() {
               <h4 className="text-lg font-bold mb-3">{doc.title}</h4>
               <p className="text-sm text-gray-400 mb-6">{doc.desc}</p>
               <a
-                href={`/${doc.file}`}
+                href={`/${encodeURIComponent(doc.file)}`}
                 download
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold transition-all hover:scale-105"
                 style={{ backgroundColor: `${doc.color}15`, color: doc.color }}
               >
