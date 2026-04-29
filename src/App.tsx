@@ -1646,7 +1646,7 @@ function DocumentationSection() {
               desc: 'Diagrammes de cas d\'utilisation, séquence système, architecture détaillée et choix architecturaux.',
               icon: Lightbulb,
               color: '#FF6B4A',
-              file: 'Conception technique de systeme de recommandation.docx',
+              file: 'Conception technique de systeme de recommandation (3).docx',
             },
             {
               title: 'Plan Technique V2',
